@@ -1,0 +1,82 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+#titlePutih {
+	font-family: "Lato";
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	font-size: 8rem;
+	position: relative;
+	top: 40%;
+	transform: translateY(-40%);
+	text-shadow: 0.07em 0.07em 0em #98C9BB; /* ini buat drop shadow color jgn lupa */
+	z-index: 1;
+}			
+
+.gambar1 {
+	position: relative;
+	top: 30%;
+	left: 5%;
+	transform: translate(-10%, -10%);
+	z-index: 1;
+	width: 20rem;
+}
+
+.gambar2 {
+	position: relative;
+	top: 30%;
+	left: 10%;
+	transform: translate(-10%, -30%);
+	z-index: 0;
+	width: 16rem;
+}
+
+.gambar3 {
+	position: relative;
+	bottom: 60%;
+	left: 15%;
+	transform: translate(-10%, -90%);
+	z-index: 1;
+	width: 20rem;
+}
+
+.pendidikan {
+	font-family: "Lato";
+	font-weight: bolder;
+	text-align: left;
+	color: white;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	transform: translateY(-50%);
+}
+
+#layar1 {
+	background-color: #0F103D;
+	height: 100%;
+}
+
+#layar2 {
+	background-color: #BE325C;
+	height: 100%;
+}
+
+#layar3 {
+	background-color: #EACB60;
+	height: 100%;
+}
+
+#layar4 {
+	background-color: #98C9BB;
+	height: 100%;
+}
+
+#layar5 {
+	background-color: #4E569E;
+	height: 100%;
+}
