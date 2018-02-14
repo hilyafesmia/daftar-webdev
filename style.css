@@ -16,7 +16,8 @@ html, body {
 	transform: translateY(-40%);
 	text-shadow: 0.07em 0.07em 0em #98C9BB; /* ini buat drop shadow color jgn lupa */
 	z-index: 1;
-}			
+}	
+
 
 .gambar1 {
 	position: relative;
