@@ -1,8 +1,8 @@
 html, body {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: visible;
 }
 
 
@@ -20,6 +20,10 @@ html, body {
 }	
 
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+
+}
 .gambar1 {
 	position: relative;
 	top: 30%;
@@ -56,6 +60,21 @@ html, body {
 	top: 40%;
 	left: 50%;
 	transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 1746px) {
+	.gambar1 {
+		width: 15rem;
+	}
+
+	.gambar2 {
+		width: 10rem;
+	}
+
+	.gambar3 {
+		width: 15rem;
+	}
+
 }
 
 #layar1 {
