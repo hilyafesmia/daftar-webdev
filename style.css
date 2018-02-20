@@ -24,6 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0px;
 
 }
+
+img {
+	margin: 0px;
+}
+
 .gambar1 {
 	position: relative;
 	top: 30%;
@@ -54,6 +59,17 @@ h1, h2, h3, h4, h5, h6 {
 .pendidikan {
 	font-family: "Lato";
 	font-weight: bolder;
+	text-align: left;
+	color: white;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	transform: translateY(-50%);
+}
+
+.subPendidikan {
+	font-family: "Lato";
+	font-weight: lighter;
 	text-align: left;
 	color: white;
 	position: relative;
